@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- Informa ao navegador que este documento usa HTML 5 -->
+<html lang="pt-br"> <!-- Emento raiz da página que envolve todo html  -->
+<head><!-- Contem metadados e configurações que ão aparecem no conteúdo -->
+    <meta charset="UTF-8">
+    <!-- define a codificação de caracteres como UTF-I para suportar acentos e 
+     caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faz a página se adaptar corretamente a telas menores como celulares -->
+    <title>Document</title><!-- Define o título que aparece na aba do navegador -->
+<!--
+    <style>
+        body{
+            background-color: hwb(182 0% 0% / 0.288);
+        }
+    </style>-->
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <!-- bodycontem todo o conteudo visivel da página -->
+
+    <header>
+        <!-- header representa o cabeçalho da página ou de uma seção -->
+
+        <div>
+            <!-- div usada para agrupar elementos e facilitar organização -->
+             <nav>
+                <!-- nav usada para agrupar links de navegação principais -->
+                 <h2 > Minha Landing Page</h2> <!-- h2 Título nivel 2 para subtitulos -->
+
+                 <ul>
+                    <!-- ul, cria uma lista não ordenada -->
+                     <li> <a href="#""> Inicio </a> </li> <!-- li tag item da lista -->
+                     <li> <a href="#""> Beneficios </a> </li> 
+                     <li> <a href="#""> Google </a> </li> 
+                 </ul>
+             </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- main representa o conteudo principal da página -->
+
+        <section>
+            <!-- section agrupa um bloco temático de conteúdo -->
+             <div>
+                <h1> Crie páginas modernas usando HTML semãntico</h1>
+                <p>
+                    Esta é uma landing page simples feita somente com HTML usando tags semânticas muito comuns no mercado de frontend atual.
+                    <!-- p, representa um parágrafo de texto -->
+                </p>
+
+                <a href ="">Ver benefícios</a>
+             </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Principais vantagens</h2>
+                <div>
+                    <article>
+                        <!-- article, representa um bloco de conteudo independente -->
+                         <h3>HTML Semântico</h3>
+                         <p>\melhora a organização do código e ajuda na acessibilidade</p>
+                    </article>
+                    
+                    <article>
+                        <h3>Estrutura profissinal</h3>
+                        <p> Usa tags modernas como header, nav, main, section, article e footer.</p>
+                    </article>
+
+                    <article>
+                        <h3>Fácil manutenção</h3>
+                        <p>O código fica mais legível para qualquer dev frontend do time.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2> Clique na imagem para entrar no google.</h2>
+                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                <!-- target, abre o link em nova aba -->
+                 <!-- rel, melhora segurança ao abrir nova aba -->
+                  <img src="data:image/png;base64,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" alt="">  <!-- img, exibe uma imagem -->
+                  <!-- alt, texto alternativo pra acessibilidade e caso a imagem não carregue -->
+                   </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- footer representa o rodape da pagina -->
+         <div>
+            <p> &copy; 2026 - Página Landing Page em HTML</p>
+         </div>
+    </footer>
+</body>
+</html>
